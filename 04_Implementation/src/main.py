@@ -2,12 +2,11 @@ import csv
 import random
 import os
 
-
 class Question:
     def __init__(self, word: str, choices: list[str], correct_index: int):
         self.word = word
         self.choices = choices
-        self.correct_index = correct_index  # index ของคำตอบที่ถูกใน choices
+        self.correct_index = correct_index
 
     def shuffle_choices(self):
         """สลับลำดับตัวเลือกและอัปเดตตำแหน่งคำตอบที่ถูกต้อง"""
@@ -17,7 +16,6 @@ class Question:
         new_correct_index = indices.index(self.correct_index)
         self.choices = new_choices
         self.correct_index = new_correct_index
-
 
 class QuizApp:
     def __init__(self):
@@ -37,15 +35,13 @@ class QuizApp:
             with open(file_path, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
                 for row in reader:
-                    # คาดหวังอย่างน้อย 6 คอลัมน์: word + 5 choices (col2 คือคำตอบถูก)
                     if len(row) < 6:
-                        # ข้ามบรรทัดที่ไม่สมบูรณ์
                         continue
-
+                        
                     word = row[0].strip()
-                    # คอลัมน์ที่ 1-5 เป็นตัวเลือก (col1 คือ correct answer)
+
                     choices = [c.strip() for c in row[1:6]]
-                    correct_index = 0  # คำตอบที่ถูกคือตัวแรกใน choices
+                    correct_index = 0 
 
                     q = Question(word, choices, correct_index)
                     q.shuffle_choices()
@@ -147,7 +143,6 @@ def main():
             break
         else:
             print("Invalid menu option. Please select 1-3.\n")
-
 
 if __name__ == "__main__":
     main()
