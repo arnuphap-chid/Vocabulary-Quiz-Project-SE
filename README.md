@@ -73,8 +73,8 @@ Vocabulary-Quiz-Project-SE/
 │
 ├── 06_Deployment_Review/
 │     ├── User_Manual.md
-│     ├── Presentation_Slides.pdf (optional)
-│     └── Deployment_Link.txt (optional)
+│     ├── Presentation_Slides.pdf
+│     └── Deployment_Link.txt
 │
 └── README.md
 ```
