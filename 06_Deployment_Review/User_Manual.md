@@ -25,11 +25,13 @@ python3 --version
 - vocab.csv  
 
 โครงสร้างไดเรกทอรี:
+
+```bash
 04_Implementation/
 └── src/
-
     ├── main.py
     └── vocab.csv
+```
 
 ---
 
