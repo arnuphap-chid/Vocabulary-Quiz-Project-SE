@@ -7,7 +7,7 @@ Deployment Status
 python3 main.py
 
 GitHub Repository Link:
-<ใส่ลิงก์ GitHub ของคุณตรงนี้>
+<https://github.com/arnuphap-chid/Vocabulary-Quiz-Project-SE>
 
 หมายเหตุ:
 ไฟล์นี้ใช้เพื่อยืนยันขั้นตอน Deployment Review ตาม SDLC
