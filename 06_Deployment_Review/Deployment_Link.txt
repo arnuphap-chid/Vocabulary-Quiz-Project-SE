@@ -9,5 +9,8 @@ python3 main.py
 GitHub Repository Link:
 https://github.com/arnuphap-chid/Vocabulary-Quiz-Project-SE
 
+YouTube Demo Link:
+https://youtu.be/Gx4oyjXLSPw
+
 หมายเหตุ:
 ไฟล์นี้ใช้เพื่อยืนยันขั้นตอน Deployment Review ตาม SDLC
