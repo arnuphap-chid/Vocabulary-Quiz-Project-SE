@@ -1,1 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Virtual environment
+venv/
+
+# Output or temporary files
+*.log
+*.tmp
+
+# General
+Thumbs.db
