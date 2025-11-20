@@ -1,1 +1,13 @@
+Deployment Status
 
+เนื่องจากโปรเจกต์นี้เป็น Console Application (Python) จึงไม่สามารถ Deployment แบบ Web Hosting หรือ Cloud Hosting ได้
+
+อย่างไรก็ตาม ระบบสามารถรันผ่านเครื่องของผู้ใช้ได้โดยตรงผ่านคำสั่ง:
+
+python3 main.py
+
+GitHub Repository Link:
+<ใส่ลิงก์ GitHub ของคุณตรงนี้>
+
+หมายเหตุ:
+ไฟล์นี้ใช้เพื่อยืนยันขั้นตอน Deployment Review ตาม SDLC
