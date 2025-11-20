@@ -28,6 +28,32 @@
 
 ---
 
+# การติดตั้ง (Installation)
+
+1. **ติดตั้ง Python**  
+   - แนะนำให้ใช้ Python เวอร์ชัน **3.11 ขึ้นไป**  
+   - ตรวจสอบเวอร์ชันด้วยคำสั่ง:
+     ```bash
+     python3 --version
+     ```
+     หรือบน Windows บางเครื่อง:
+     ```bash
+     python --version
+     ```
+
+2. **ดาวน์โหลดโปรเจกต์จาก GitHub**
+   - วิธีที่ 1: ใช้ปุ่ม **Code → Download ZIP** บนหน้า GitHub แล้วแตกไฟล์ (Extract)  
+   - วิธีที่ 2: หากใช้ Git:
+     ```bash
+     git clone <URL ของ GitHub Repository>
+     ```
+
+3. **เข้าไปยังโฟลเดอร์โปรเจกต์**
+   ```bash
+   cd Vocabulary-Quiz-Project-SE
+
+---
+
 # โครงสร้างโปรเจกต์ (Project Structure)
 
 ```
