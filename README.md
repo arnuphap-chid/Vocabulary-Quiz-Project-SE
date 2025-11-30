@@ -102,6 +102,7 @@ Vocabulary-Quiz-Project-SE/
 │     ├── Presentation_Slides.pdf
 │     └── Deployment_Link.txt
 │
+├── .gitignore
 └── README.md
 ```
 
